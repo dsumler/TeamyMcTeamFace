@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello, World!\n");
+    int subtract(int num1, int num2){
+        return num1-num2;
+    }
     return 0;
 }
