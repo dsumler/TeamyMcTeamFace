@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "C:/Program Files (x86)/I/bin/gcc.exe")
+set(CMAKE_C_COMPILER "C:/win-builds/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "4.8.3")
@@ -16,11 +16,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/Program Files (x86)/I/bin/ar.exe")
-set(CMAKE_C_COMPILER_AR "C:/Program Files (x86)/I/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Program Files (x86)/I/bin/ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "C:/Program Files (x86)/I/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Program Files (x86)/I/bin/ld.exe")
+set(CMAKE_AR "C:/win-builds/bin/ar.exe")
+set(CMAKE_C_COMPILER_AR "C:/win-builds/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "C:/win-builds/bin/ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "C:/win-builds/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/win-builds/bin/ld.exe")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -69,5 +69,5 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/Program Files (x86)/I/lib64/gcc/x86_64-w64-mingw32/4.8.3;C:/Program Files (x86)/I/lib64/gcc;C:/Program Files (x86)/I/x86_64-w64-mingw32/lib;C:/Users/dsuml/OneDrive/Documents/I/lib64")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/win-builds/lib64/gcc/x86_64-w64-mingw32/4.8.3;C:/win-builds/lib64/gcc;C:/win-builds/x86_64-w64-mingw32/lib;C:/win-builds/lib64")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
