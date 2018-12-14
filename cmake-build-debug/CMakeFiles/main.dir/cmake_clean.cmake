@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.c.obj"
-  "CMakeFiles/main.dir/Subtract.c.obj"
-  "CMakeFiles/main.dir/Multiply.c.obj"
   "main.pdb"
   "main.exe"
   "main.exe.manifest"

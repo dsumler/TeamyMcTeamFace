@@ -135,60 +135,6 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-Multiply.obj: Multiply.c.obj
-
-.PHONY : Multiply.obj
-
-# target to build an object file
-Multiply.c.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Multiply.c.obj
-.PHONY : Multiply.c.obj
-
-Multiply.i: Multiply.c.i
-
-.PHONY : Multiply.i
-
-# target to preprocess a source file
-Multiply.c.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Multiply.c.i
-.PHONY : Multiply.c.i
-
-Multiply.s: Multiply.c.s
-
-.PHONY : Multiply.s
-
-# target to generate assembly for a file
-Multiply.c.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Multiply.c.s
-.PHONY : Multiply.c.s
-
-Subtract.obj: Subtract.c.obj
-
-.PHONY : Subtract.obj
-
-# target to build an object file
-Subtract.c.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Subtract.c.obj
-.PHONY : Subtract.c.obj
-
-Subtract.i: Subtract.c.i
-
-.PHONY : Subtract.i
-
-# target to preprocess a source file
-Subtract.c.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Subtract.c.i
-.PHONY : Subtract.c.i
-
-Subtract.s: Subtract.c.s
-
-.PHONY : Subtract.s
-
-# target to generate assembly for a file
-Subtract.c.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Subtract.c.s
-.PHONY : Subtract.c.s
-
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -229,12 +175,6 @@ help:
 	@echo ... edit_cache
 	@echo ... main
 	@echo ... rebuild_cache
-	@echo ... Multiply.obj
-	@echo ... Multiply.i
-	@echo ... Multiply.s
-	@echo ... Subtract.obj
-	@echo ... Subtract.i
-	@echo ... Subtract.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

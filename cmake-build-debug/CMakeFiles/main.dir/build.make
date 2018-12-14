@@ -57,61 +57,31 @@ include CMakeFiles/main.dir/progress.make
 include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.c.obj: ../main.c
+CMakeFiles/main.dir/main.c.obj: main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.c.obj"
-	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\main.dir\main.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\main.c
+	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\main.dir\main.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\main.c
 
 CMakeFiles/main.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/main.c.i"
-	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dsuml\OneDrive\Desktop\Assignment3\main.c > CMakeFiles\main.dir\main.c.i
+	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\main.c > CMakeFiles\main.dir\main.c.i
 
 CMakeFiles/main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
-	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dsuml\OneDrive\Desktop\Assignment3\main.c -o CMakeFiles\main.dir\main.c.s
-
-CMakeFiles/main.dir/Subtract.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Subtract.c.obj: Subtract.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/Subtract.c.obj"
-	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\main.dir\Subtract.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\Subtract.c
-
-CMakeFiles/main.dir/Subtract.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/Subtract.c.i"
-	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\Subtract.c > CMakeFiles\main.dir\Subtract.c.i
-
-CMakeFiles/main.dir/Subtract.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/Subtract.c.s"
-	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\Subtract.c -o CMakeFiles\main.dir\Subtract.c.s
-
-CMakeFiles/main.dir/Multiply.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Multiply.c.obj: Multiply.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/Multiply.c.obj"
-	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\main.dir\Multiply.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\Multiply.c
-
-CMakeFiles/main.dir/Multiply.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/Multiply.c.i"
-	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\Multiply.c > CMakeFiles\main.dir\Multiply.c.i
-
-CMakeFiles/main.dir/Multiply.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/Multiply.c.s"
-	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\Multiply.c -o CMakeFiles\main.dir\Multiply.c.s
+	C:\PROGRA~2\I\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\main.c -o CMakeFiles\main.dir\main.c.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.c.obj" \
-"CMakeFiles/main.dir/Subtract.c.obj" \
-"CMakeFiles/main.dir/Multiply.c.obj"
+"CMakeFiles/main.dir/main.c.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/main.c.obj
-main.exe: CMakeFiles/main.dir/Subtract.c.obj
-main.exe: CMakeFiles/main.dir/Multiply.c.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
