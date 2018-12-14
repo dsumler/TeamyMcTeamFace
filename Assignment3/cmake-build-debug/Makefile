@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\dsuml\CLionProjects\Assignment3
+CMAKE_SOURCE_DIR = C:\Users\dsuml\OneDrive\Desktop\Assignment3\Assignment3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\dsuml\CLionProjects\Assignment3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\dsuml\OneDrive\Desktop\Assignment3\Assignment3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dsuml\CLionProjects\Assignment3\cmake-build-debug\CMakeFiles C:\Users\dsuml\CLionProjects\Assignment3\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dsuml\OneDrive\Desktop\Assignment3\Assignment3\cmake-build-debug\CMakeFiles C:\Users\dsuml\OneDrive\Desktop\Assignment3\Assignment3\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dsuml\CLionProjects\Assignment3\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dsuml\OneDrive\Desktop\Assignment3\Assignment3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,17 +123,17 @@ Assignment3/fast:
 .PHONY : Assignment3/fast
 
 #=============================================================================
-# Target rules for targets named project
+# Target rules for targets named main
 
 # Build rule for target.
-project: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 project
-.PHONY : project
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-project/fast:
-	$(MAKE) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/build
-.PHONY : project/fast
+main/fast:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 main.obj: main.c.obj
 
@@ -142,7 +142,7 @@ main.obj: main.c.obj
 # target to build an object file
 main.c.obj:
 	$(MAKE) -f CMakeFiles\Assignment3.dir\build.make CMakeFiles/Assignment3.dir/main.c.obj
-	$(MAKE) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -152,7 +152,7 @@ main.i: main.c.i
 # target to preprocess a source file
 main.c.i:
 	$(MAKE) -f CMakeFiles\Assignment3.dir\build.make CMakeFiles/Assignment3.dir/main.c.i
-	$(MAKE) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/main.c.i
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -162,7 +162,7 @@ main.s: main.c.s
 # target to generate assembly for a file
 main.c.s:
 	$(MAKE) -f CMakeFiles\Assignment3.dir\build.make CMakeFiles/Assignment3.dir/main.c.s
-	$(MAKE) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/main.c.s
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -172,8 +172,8 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... Assignment3
-	@echo ... project
 	@echo ... edit_cache
+	@echo ... main
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
