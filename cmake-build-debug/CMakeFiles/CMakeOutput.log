@@ -10,37 +10,37 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_f09e7/fast"
-C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_f09e7.dir\build.make CMakeFiles/cmTC_f09e7.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f09e7.dir/testCCompiler.c.obj
-C:\PROGRA~2\I\bin\gcc.exe    -o CMakeFiles\cmTC_f09e7.dir\testCCompiler.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\Assignment3\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_f09e7.exe
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f09e7.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f09e7.dir/objects.a
-C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_f09e7.dir/objects.a @CMakeFiles\cmTC_f09e7.dir\objects1.rsp
-C:\PROGRA~2\I\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_f09e7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f09e7.exe -Wl,--out-implib,libcmTC_f09e7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f09e7.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_ce3fb/fast"
+C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_ce3fb.dir\build.make CMakeFiles/cmTC_ce3fb.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce3fb.dir/testCCompiler.c.obj
+C:\PROGRA~2\I\bin\gcc.exe    -o CMakeFiles\cmTC_ce3fb.dir\testCCompiler.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_ce3fb.exe
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ce3fb.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ce3fb.dir/objects.a
+C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_ce3fb.dir/objects.a @CMakeFiles\cmTC_ce3fb.dir\objects1.rsp
+C:\PROGRA~2\I\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_ce3fb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ce3fb.exe -Wl,--out-implib,libcmTC_ce3fb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ce3fb.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_ed6fa/fast"
-C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_ed6fa.dir\build.make CMakeFiles/cmTC_ed6fa.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ed6fa.dir/CMakeCCompilerABI.c.obj
-C:\PROGRA~2\I\bin\gcc.exe    -o CMakeFiles\cmTC_ed6fa.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
-Linking C executable cmTC_ed6fa.exe
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ed6fa.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ed6fa.dir/objects.a
-C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_ed6fa.dir/objects.a @CMakeFiles\cmTC_ed6fa.dir\objects1.rsp
-C:\PROGRA~2\I\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_ed6fa.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ed6fa.exe -Wl,--out-implib,libcmTC_ed6fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_f06c8/fast"
+C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_f06c8.dir\build.make CMakeFiles/cmTC_f06c8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f06c8.dir/CMakeCCompilerABI.c.obj
+C:\PROGRA~2\I\bin\gcc.exe    -o CMakeFiles\cmTC_f06c8.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_f06c8.exe
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f06c8.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f06c8.dir/objects.a
+C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_f06c8.dir/objects.a @CMakeFiles\cmTC_f06c8.dir\objects1.rsp
+C:\PROGRA~2\I\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_f06c8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f06c8.exe -Wl,--out-implib,libcmTC_f06c8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Reading specs from c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/specs
 COLLECT_GCC=C:\PROGRA~2\I\bin\gcc.exe
 COLLECT_LTO_WRAPPER=c:/progra~2/i/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/lto-wrapper.exe
@@ -50,25 +50,25 @@ Thread model: posix
 gcc version 4.8.3 (GCC) 
 COMPILER_PATH=c:/progra~2/i/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/;c:/progra~2/i/bin/../libexec/gcc/;c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/;c:/progra~2/i/bin/../lib64/gcc/;c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/;c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed6fa.exe' '-mtune=generic' '-march=x86-64'
- c:/progra~2/i/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_ed6fa.exe c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Lc:/progra~2/i/bin/../lib64/gcc -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_ed6fa.dir/objects.a --no-whole-archive --out-implib libcmTC_ed6fa.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/Users/dsuml/OneDrive/Documents/I/lib64 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
-mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f06c8.exe' '-mtune=generic' '-march=x86-64'
+ c:/progra~2/i/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_f06c8.exe c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Lc:/progra~2/i/bin/../lib64/gcc -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_f06c8.dir/objects.a --no-whole-archive --out-implib libcmTC_f06c8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/Users/dsuml/OneDrive/Documents/I/lib64 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_ed6fa/fast"]
-  ignore line: [C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_ed6fa.dir\build.make CMakeFiles/cmTC_ed6fa.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ed6fa.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\PROGRA~2\I\bin\gcc.exe    -o CMakeFiles\cmTC_ed6fa.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_ed6fa.exe]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ed6fa.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ed6fa.dir/objects.a]
-  ignore line: [C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_ed6fa.dir/objects.a @CMakeFiles\cmTC_ed6fa.dir\objects1.rsp]
-  ignore line: [C:\PROGRA~2\I\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_ed6fa.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ed6fa.exe -Wl,--out-implib,libcmTC_ed6fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_f06c8/fast"]
+  ignore line: [C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_f06c8.dir\build.make CMakeFiles/cmTC_f06c8.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f06c8.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\PROGRA~2\I\bin\gcc.exe    -o CMakeFiles\cmTC_f06c8.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_f06c8.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f06c8.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f06c8.dir/objects.a]
+  ignore line: [C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_f06c8.dir/objects.a @CMakeFiles\cmTC_f06c8.dir\objects1.rsp]
+  ignore line: [C:\PROGRA~2\I\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_f06c8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f06c8.exe -Wl,--out-implib,libcmTC_f06c8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Reading specs from c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/specs]
   ignore line: [COLLECT_GCC=C:\PROGRA~2\I\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/progra~2/i/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/lto-wrapper.exe]
@@ -83,15 +83,15 @@ Parsed C implicit link information from above output:
   ignore line: [c:/progra~2/i/bin/../lib64/gcc/]
   ignore line: [c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/]
   ignore line: [c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed6fa.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ c:/progra~2/i/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_ed6fa.exe c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Lc:/progra~2/i/bin/../lib64/gcc -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_ed6fa.dir/objects.a --no-whole-archive --out-implib libcmTC_ed6fa.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/Users/dsuml/OneDrive/Documents/I/lib64 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f06c8.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ c:/progra~2/i/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe --sysroot=/opt/windows_64 -m i386pep -Bdynamic -o cmTC_f06c8.exe c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3 -Lc:/progra~2/i/bin/../lib64/gcc -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib --whole-archive CMakeFiles\cmTC_f06c8.dir/objects.a --no-whole-archive --out-implib libcmTC_f06c8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -LC:/Users/dsuml/OneDrive/Documents/I/lib64 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
     arg [c:/progra~2/i/bin/../libexec/gcc/x86_64-w64-mingw32/4.8.3/collect2.exe] ==> ignore
     arg [--sysroot=/opt/windows_64] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ed6fa.exe] ==> ignore
+    arg [cmTC_f06c8.exe] ==> ignore
     arg [c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> ignore
     arg [-Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3] ==> dir [c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3]
@@ -99,10 +99,10 @@ Parsed C implicit link information from above output:
     arg [-Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib/../lib]
     arg [-Lc:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/progra~2/i/bin/../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/lib]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_ed6fa.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_f06c8.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_ed6fa.dll.a] ==> ignore
+    arg [libcmTC_f06c8.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -143,19 +143,19 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_1df7f/fast"
-C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_1df7f.dir\build.make CMakeFiles/cmTC_1df7f.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1df7f.dir/feature_tests.c.obj
-C:\PROGRA~2\I\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_1df7f.dir\feature_tests.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\Assignment3\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_1df7f.exe
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1df7f.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_1df7f.dir/objects.a
-C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_1df7f.dir/objects.a @CMakeFiles\cmTC_1df7f.dir\objects1.rsp
-C:\PROGRA~2\I\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_1df7f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1df7f.exe -Wl,--out-implib,libcmTC_1df7f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1df7f.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_15517/fast"
+C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_15517.dir\build.make CMakeFiles/cmTC_15517.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15517.dir/feature_tests.c.obj
+C:\PROGRA~2\I\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_15517.dir\feature_tests.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_15517.exe
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_15517.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_15517.dir/objects.a
+C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_15517.dir/objects.a @CMakeFiles\cmTC_15517.dir\objects1.rsp
+C:\PROGRA~2\I\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_15517.dir/objects.a -Wl,--no-whole-archive  -o cmTC_15517.exe -Wl,--out-implib,libcmTC_15517.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_15517.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -165,19 +165,19 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignme
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_63bd9/fast"
-C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_63bd9.dir\build.make CMakeFiles/cmTC_63bd9.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_63bd9.dir/feature_tests.c.obj
-C:\PROGRA~2\I\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_63bd9.dir\feature_tests.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\Assignment3\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_63bd9.exe
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_63bd9.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_63bd9.dir/objects.a
-C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_63bd9.dir/objects.a @CMakeFiles\cmTC_63bd9.dir\objects1.rsp
-C:\PROGRA~2\I\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_63bd9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_63bd9.exe -Wl,--out-implib,libcmTC_63bd9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_63bd9.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_ff4b1/fast"
+C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_ff4b1.dir\build.make CMakeFiles/cmTC_ff4b1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff4b1.dir/feature_tests.c.obj
+C:\PROGRA~2\I\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_ff4b1.dir\feature_tests.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_ff4b1.exe
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ff4b1.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ff4b1.dir/objects.a
+C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_ff4b1.dir/objects.a @CMakeFiles\cmTC_ff4b1.dir\objects1.rsp
+C:\PROGRA~2\I\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_ff4b1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ff4b1.exe -Wl,--out-implib,libcmTC_ff4b1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ff4b1.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -187,19 +187,19 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignme
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_a4b3f/fast"
-C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_a4b3f.dir\build.make CMakeFiles/cmTC_a4b3f.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a4b3f.dir/feature_tests.c.obj
-C:\PROGRA~2\I\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_a4b3f.dir\feature_tests.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\Assignment3\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_a4b3f.exe
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a4b3f.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a4b3f.dir/objects.a
-C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_a4b3f.dir/objects.a @CMakeFiles\cmTC_a4b3f.dir\objects1.rsp
-C:\PROGRA~2\I\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a4b3f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a4b3f.exe -Wl,--out-implib,libcmTC_a4b3f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a4b3f.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~2/I/bin/mingw32-make.exe" "cmTC_b9928/fast"
+C:/PROGRA~2/I/bin/mingw32-make.exe -f CMakeFiles\cmTC_b9928.dir\build.make CMakeFiles/cmTC_b9928.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9928.dir/feature_tests.c.obj
+C:\PROGRA~2\I\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_b9928.dir\feature_tests.c.obj   -c C:\Users\dsuml\OneDrive\Desktop\Assignment3\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_b9928.exe
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b9928.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b9928.dir/objects.a
+C:\PROGRA~2\I\bin\ar.exe cr CMakeFiles\cmTC_b9928.dir/objects.a @CMakeFiles\cmTC_b9928.dir\objects1.rsp
+C:\PROGRA~2\I\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_b9928.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b9928.exe -Wl,--out-implib,libcmTC_b9928.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b9928.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/dsuml/OneDrive/Desktop/Assignment3/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
