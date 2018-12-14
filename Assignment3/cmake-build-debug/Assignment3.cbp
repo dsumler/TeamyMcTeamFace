@@ -114,7 +114,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/main.c">
+		<Unit filename="C:/Users/dsuml/OneDrive/Desktop/Assignment3/Assignment3/cmake-build-debug/main.c">
 			<Option target="Assignment3"/>
 			<Option target="main"/>
 		</Unit>
