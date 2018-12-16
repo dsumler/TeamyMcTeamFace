@@ -4,7 +4,7 @@
 #include "Divide.c"
 #include "Add.c"
 
-int main(void){
+int main(void)
     float num1 = 0, num2 = 0;
     char choice;
 
