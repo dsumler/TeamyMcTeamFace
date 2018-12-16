@@ -1,11 +1,18 @@
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/win-builds/bin/mingw32-make.exe -G "CodeBlocks - MinGW Makefiles" C:\GitProjects\TeamyMcTeamFace
--- The C compiler identification is GNU 4.8.3
--- Check for working C compiler: C:/win-builds/bin/gcc.exe
--- Check for working C compiler: C:/win-builds/bin/gcc.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: C:/GitProjects/TeamyMcTeamFace/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\dsuml\OneDrive\Desktop\Assignment3
+CMake Error at C:/Program Files/JetBrains/CLion 2018.2.4/bin/cmake/win/share/cmake-3.12/Modules/CMakeMinGWFindMake.cmake:12 (message):
+  sh.exe was found in your PATH, here:
+
+  C:/Program Files/Git/usr/bin/sh.exe
+
+  For MinGW make to work correctly sh.exe must NOT be in your path.
+
+  Run cmake from a shell that does not have sh.exe in your PATH.
+
+  If you want to use a UNIX shell, then use MSYS Makefiles.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!

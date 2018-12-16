@@ -1,4 +1,4 @@
-ToolSet: w64 3.3@C:\win-builds
+ToolSet: w64 3.3@C:\Program Files (x86)\I
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=C:/win-builds/bin/mingw32-make.exe
+Options:
